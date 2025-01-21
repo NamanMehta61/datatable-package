@@ -1,0 +1,47 @@
+{
+  "name": "vue2-dynamic-data-table",
+  "version": "1.0.0",
+  "description": "A flexible and dynamic data table component for Vue.js 2.6 with sorting, pagination, and custom columns",
+  "main": "dist/vue2-dynamic-data-table.umd.js",
+  "module": "dist/vue2-dynamic-data-table.esm.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "data-table",
+    "table",
+    "grid",
+    "pagination",
+    "sorting"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "axios": "^0.21.4",
+    "vue": "^2.7.16"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.60.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "rollup-plugin-vue2": "^0.8.1",
+    "vue-template-compiler": "^2.6.0"
+  }
+}
